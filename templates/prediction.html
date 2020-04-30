@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+  <div class="col-sm-8 offset-sm-2">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-10">The app is created to help doctors classify chest X ray of patients suspected to be infected Covid-19 </h1>
+      <p class="lead">This project is aimed to be computer-aided to swiftly diagnose Covid-19 infection from lungs X ray images. <br> <a
+          href="https://github.com/linhduongtuan/Covid-19_Xray_Classifier"> View on GitHub</a></p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="mb-2 col-md-6 offset-md-3">
+    <form action="/inference" method="POST" enctype="multipart/form-data">
+      <div class="input-group">
+        <div class="custom-file">
+          <input type="file" name="file" accept=".jpg, .jpeg, .png, .tiff" class="custom-file-input" id="inputGroupFile"
+            aria-describedby="inputGroupFileAddon04">
+          <label class="custom-file-label" for="inputGroupFile">Choose file</label>
+        </div>
+        <div class="input-group-append">
+          <input type="submit" value="Prediction"  class="btn btn-outline-secondary" type="button"
+            id="inputGroupFileAddon04" /> 
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 offset-sm-3 my-5">
+      <center>
+        <p class="text-muted">
+          This app uses ensembled models, trained on dataset here https://covidresearch.ai/datasets/dataset?id=2.<br>.
+        </p>
+      </center>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
+
+
