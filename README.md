@@ -15,8 +15,9 @@ We also easily find codes for both papers here: [https://github.com/lindawangg/C
 ## Summary my experiment's results
 
 ## Flow:
-* To check my prediction results, you can use NoteBook folder [here] (https://github.com/linhduongtuan/Covid-19_Xray_Classifier/blob/master/Notebooks/)
-* Checkpoints of the models are loaded and ensembled, found: [models.py](https://github.com/linhduongtuan/Covid-19-Xray-Classifier/blob/master/models.py)     
+* To check my prediction results, you can use NoteBook folder [here] (https://github.com/linhduongtuan/Covid-19_Xray_Classifier/blob/master/Notebooks/Metrics.ipynb)
+* Checkpoints of the models are loaded, found: [models.py](https://github.com/linhduongtuan/Covid-19-Xray-Classifier/blob/master/commons.py) 
+* Inference of the model: [inference.py] (https://github.com/linhduongtuan/Covid-19_Xray_Classifier/blob/master/inference.py
 * Run on local web: [app.py] (https://github.com/linhduongtuan/Covid-19_Xray_Classifier/blob/master/app.py) 
 * My trained weights of the models can be downloaded here [https://github.com/linhduongtuan/Covid-19_Xray_Classifier/blob/master/releases/]
 
@@ -36,4 +37,11 @@ This will firstly download the models and then start the local web server.
 
 now go to the local server something like this - http://127.0.0.1:5000/ and see the result and explore.
 
+##TODO
+* NEED TO INTERNAL AND EXTERNAL VALIDITY
+* Improve Specificity and Sensisitity of Covid-19 Chest Xray via ensemble voting
+* Improve web interface and cybersecurity
+* Enable to predict other formats of image such as DICOM, *png, *tiff,...
+* Enable to predict a batch of images
+...
 ### @creator - Duong Tuan Linh
