@@ -1,5 +1,6 @@
 # Covid-19_Xray_Classifier
-You can find our paper here [https://www.medrxiv.org/content/10.1101/2020.08.13.20173997v1]
+You can find our paper here [https://www.medrxiv.org/content/10.1101/2020.08.13.20173997v1] & DOI [doi: https://doi.org/10.1101/2020.08.13.20173997].
+
 At the moment, we are facing with one of the most crisis public health around the World, called Covid-19 pandemic. The F0 case was first reported in Wuhan, China. Now the pandemic threads all people lives as well as ecomoic collapse in most countries in the World.
 To help physicians in the battles, I apply various deep learning to classify chest X-ray images from patients who are suspected to infect Covid-19.
 I hope that the computer-aided tool can be robust, fast, and accurate diagnosis lungs images of Covid-19 infection, other pneumonia, and normal as well. 
