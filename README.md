@@ -47,3 +47,24 @@ now go to the local server something like this - http://127.0.0.1:5000/ and see 
 * Enable to predict a batch of images
 ...
 ### @creator - Duong Tuan Linh
+
+
+## Citing
+
+### BibTeX
+
+```bibtex
+@article{duong2022automatic,
+  title={Automatic detection of Covid-19 from chest X-ray and lung computed tomography images using deep neural networks and transfer learning},
+  author={Duong, Linh T and Nguyen, Phuong T and Iovino, Ludovico and Flammini, Michele},
+  journal={Applied Soft Computing},
+  pages={109851},
+  year={2022},
+  publisher={Elsevier}
+  DOI={https://doi.org/10.1016/j.asoc.2022.109851}
+}
+```
+
+### Latest DOI
+
+[![DOI](https://zenodo.org/badge/168799526.svg)](https://doi.org/10.1016/j.asoc.2022.109851)
